@@ -44,3 +44,15 @@ git tag v1.0
 git tag v0.5 5446545645641
 // 删除标签
 git tag -d v0.5
+// 推送标签
+git push origin v1.0
+// 创建分支
+git branch test
+// 切换分支
+git checkout test 
+// 删除分支
+git branch -d test
+// 创建并切换分支
+git checkout -b test
+// 强制删除分支
+git branch -D test
