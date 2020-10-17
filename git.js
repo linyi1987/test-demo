@@ -26,3 +26,5 @@ git config --global i18n.commitencoding utf-8
 git config --global gui.encoding utf-8
 // 移动文件夹
 git mv home.html home
+// 移动并命名
+git mv demo.html home/demo2.html
