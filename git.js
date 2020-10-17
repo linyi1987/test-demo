@@ -56,3 +56,7 @@ git branch -d test
 git checkout -b test
 // 强制删除分支
 git branch -D test
+// 合并分支内容
+git merge test
+// 合并忽略其他分支代码
+git merge --abort
