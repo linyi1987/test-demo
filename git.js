@@ -34,3 +34,5 @@ git log --pretty=oneline home/home.html
 git checkout -- home/home.html
 // 撤销add追踪
 git reset HEAD home/home.html
+// 回到上一个版本 一个^代表一个版本
+git reset --hard HEAD^
