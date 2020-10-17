@@ -28,3 +28,5 @@ git config --global gui.encoding utf-8
 git mv home.html home
 // 移动并命名
 git mv demo.html home/demo2.html
+// 查看更改
+git log --pretty=oneline home/home.html
