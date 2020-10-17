@@ -1,3 +1,9 @@
+// 插件
+百度->谷歌访问助手->谷歌应用商店,复制网址访问
+octotree
+enhanced github
+gitzip for github
+
 // 查看之前记录
 git log
 // 查看某个人的改动
@@ -66,8 +72,10 @@ git merge --abort
 git log --oneline
 // 查看版本路线
 git log --oneline --graph
-// 拉取所有远程仓库
+// 拉取所有远程分支
 git fetch
 git branch -av
 // 删除分支
 git push origin --delete test
+// 本地分支与远程做关联
+git checkout -b test remotes/origin/master
