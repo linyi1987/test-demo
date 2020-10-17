@@ -36,3 +36,6 @@ git checkout -- home/home.html
 git reset HEAD home/home.html
 // 回到上一个版本 一个^代表一个版本
 git reset --hard HEAD^
+git reset --hard HEAD 1546545646
+// 指定回退文件
+git checkout 123156456 -- version.html
