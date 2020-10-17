@@ -39,3 +39,8 @@ git reset --hard HEAD^
 git reset --hard HEAD 1546545646
 // 指定回退文件
 git checkout 123156456 -- version.html
+// 创建版本
+git tag v1.0
+git tag v0.5 5446545645641
+// 删除标签
+git tag -d v0.5
