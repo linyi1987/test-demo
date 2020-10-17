@@ -20,5 +20,9 @@ git config --global --unset http.proxy
 // 删除文件
 git rm demo3.html
 // 重命名
-git add home.html
-git rm demo2.html
+git mv demo2.html home.html
+// 设置commit乱码
+git config --global i18n.commitencoding utf-8
+git config --global gui.encoding utf-8
+// 移动文件夹
+git mv home.html home
