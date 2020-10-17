@@ -19,3 +19,6 @@ git config --global https.proxy
 git config --global --unset http.proxy
 // 删除文件
 git rm demo3.html
+// 重命名
+git add home.html
+git rm demo2.html
