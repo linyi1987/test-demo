@@ -60,3 +60,14 @@ git branch -D test
 git merge test
 // 合并忽略其他分支代码
 git merge --abort
+// 编辑后退出
+:wq,
+// 查看版本操作
+git log --oneline
+// 查看版本路线
+git log --oneline --graph
+// 拉取所有远程仓库
+git fetch
+git branch -av
+// 删除分支
+git push origin --delete test
