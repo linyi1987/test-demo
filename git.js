@@ -17,4 +17,5 @@ git config --global http.proxy
 git config --global https.proxy
 // 清除代理
 git config --global --unset http.proxy
-第三次修改
+// 删除文件
+git rm demo3.html
