@@ -30,3 +30,7 @@ git mv home.html home
 git mv demo.html home/demo2.html
 // 查看更改
 git log --pretty=oneline home/home.html
+// 还原上次状态
+git checkout -- home/home.html
+// 撤销add追踪
+git reset HEAD home/home.html
